@@ -4,6 +4,8 @@
 This project is a simple video game using p5.js the library.
 
 ## Previews
+![Poster](docs/poster/pizza_maker_poster.png?raw=true "Poster")
+
 
 ## Setup
 - Open project with the Webstorm ide and open the index.html file.
