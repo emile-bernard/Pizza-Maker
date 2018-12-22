@@ -4,16 +4,10 @@ function preloadPlayerImg() {
 
 function setupPlayer() {
     player = createSprite(40, 40);
-    // player = createSprite(
-    //     width/2, height/3, 40, 40);
-    // player.shapeColor = color(255);
     player.addImage(playerImg);
 }
 
 function drawPlayer() {
-    // player.velocity.x = (mouseX-player.position.x)*0.1;
-    // player.velocity.y = (mouseY-player.position.y)*0.1;
-
     player.collide(walls);
     player.collide(safeZones);
     player.displace(foodItems);

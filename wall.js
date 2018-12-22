@@ -5,17 +5,6 @@ function preloadWallImg() {
 function setupWalls() {
     walls = new Group();
 
-    //Middle Walls
-    // for (let i = 0; i < 10; i++) {
-    //     let middleWall = createSprite(
-    //         random(125, width-125), (height/5)*i,
-    //         random(10, 100), random(10, 100));
-    //     middleWall.shapeColor = color('#6e5018');
-    //     // middleWall.addImage(wallImg);
-    //
-    //     walls.add(middleWall);
-    // }
-
     //Surrounding Walls
     let bottomWall = createSprite(
         width, height,
